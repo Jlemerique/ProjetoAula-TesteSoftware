@@ -6,15 +6,10 @@ package sistemabancario;
 public class Cliente {
 
 	private int id;
-	
 	private String nome;
-	
 	private int idade;
-	
 	private String email;
-	
 	private boolean ativo;
-	
 	private int idContaCorrente;
 
 	public Cliente(int id, String nome, int idade, String email, int idContaCorrente, boolean ativo) {
